@@ -9,4 +9,10 @@ E segundoElementoV2<E>(List<E> lista) {
 main() {
   var lista = [3, 6, 7, 12, 60, 30, 20];
   print(segundoElementoV1(lista));
+
+  int segundoElemento = segundoElementoV2<int>(lista);
+  print(segundoElemento);
+
+  segundoElemento = segundoElementoV2(lista);
+  print(segundoElemento);
 }
